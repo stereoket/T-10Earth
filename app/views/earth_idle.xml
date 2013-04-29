@@ -1,0 +1,19 @@
+<Alloy>
+	<Window id="earth_idle">
+
+		<Label id="cityName">You are in</Label>
+
+		<ScrollView id="issListContainer" />
+		<View id="reminderSettings">
+			<Require src="to.t10.reminderSettings" type="widget"  id="reminderWidget" />
+		</View>
+		<View id="buttonLayer">
+			<Button id="settingsButton">Settings</Button>
+			<Button id="helpButton" >Help</Button>
+		</View>
+		<Label id="loggedStatus">Logged in as: Anonymous</Label>
+		<View id="idleMode" onClick="seeLess">
+			<Label id="seeLess">See Less</Label>
+		</View>
+	</Window>
+</Alloy>

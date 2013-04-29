@@ -1,0 +1,25 @@
+"#timeContainer":{
+	backgroundImage: "/images/issListPassView_bg.png",
+	left: 10, 
+	right: 10,
+	height: 60,
+	color: "#fff"
+},
+"#day":{
+	top: 5,
+	left: 10,
+	color: "#fff",
+	font: {fontFamily: Alloy.CFG.font.ostrichMedium, fontSize: 20},
+},
+"#time":{
+	right: 10,
+	left: 10,
+	top: 0,
+	height: Ti.UI.FILL,
+	color: "#fff",
+	font: {fontFamily: Alloy.CFG.font.ostrichBlack, fontSize: 48},
+	textAlign: 'center'
+},
+"#icon":{
+	bottom: 5
+}

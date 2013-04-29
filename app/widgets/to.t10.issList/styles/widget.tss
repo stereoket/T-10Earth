@@ -1,0 +1,14 @@
+"#issListItem":{
+	left: 5,
+	right: 5,
+	height: 84,
+	backgroundColor: "#fff"
+},
+"#day":{
+	top: 4,
+	left: 10
+}
+"#time":{
+	top: 4,
+	right: 10
+}

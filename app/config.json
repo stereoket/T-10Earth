@@ -1,0 +1,12 @@
+{
+    "global": {},
+    "env:development": {},
+    "env:test": {},
+    "env:production": {},
+    "os:ios": {},
+    "os:android": {},
+    "dependencies": {
+        "to.t10.issList": "1.0",
+        "to.t10.reminderSettings": "1.0"
+    }
+}

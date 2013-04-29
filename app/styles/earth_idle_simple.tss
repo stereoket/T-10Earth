@@ -1,0 +1,56 @@
+"#earth_idle_simple":{
+	modal: true,
+	navBarHidden: true,
+	backgroundImage: Alloy.CFG.backgroundImage
+},
+"#idleMode":{
+	bottom: 0,
+	height: 50,
+	left: 0,
+	right: 0,
+	backgroundColor: "#fff",
+	opacity: 0.6
+},
+"#seeMore":{
+	color: "#000",
+	font: {
+		fontFamily: Alloy.CFG.font.ostrichMedium,
+	 	fontSize: 36},
+	textAlign: 'center',
+},
+"#infoPanel":{
+	bottom: 50,
+	height: 130
+
+},
+".idleLabel":{
+	color: "#fff",
+	font: {
+		fontFamily: Alloy.CFG.font.ostrichMedium,
+	 	fontSize: 18},
+	textAlign: 'left',
+	height: 15,
+	left: 20
+},
+"#nextPass":{
+	top: 15,
+	font: {
+		fontFamily: Alloy.CFG.font.ostrichBlack,
+	 	fontSize: 18},
+	 	height: 20
+},
+"#location":{
+	top: 40
+},
+"#timezone":{
+	top: 60
+},
+"#alerts":{
+	top: 80
+},
+"#weatherIcon":{
+	right: 20,
+	bottom: 20,
+	width: 100,
+	height: 80
+}

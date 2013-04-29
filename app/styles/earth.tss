@@ -1,0 +1,68 @@
+"#earth":{
+	backgroundImage: Alloy.CFG.backgroundImage	
+},
+"Label":{
+	font: {fontFamily: Alloy.CFG.font.ostrichMedium, fontSize: 30},
+	textAlign: 'center',
+	color: "#fff"
+},
+".largeText": {
+	font: {fontSize: 36, fontFamily: Alloy.CFG.font.ostrichBlack},
+	width: Ti.UI.SIZE,
+	textAlign: 'center',
+	color: "#fff",
+	shadowColor: '#000',
+  	shadowOffset: {x:2, y:1}
+},
+".smallText": {
+	font: {fontSize: 16, fontFamily: Alloy.CFG.font.ostrichBlack},
+	width: Ti.UI.SIZE,
+	color: "#fff",
+	shadowColor: '#000',
+  	shadowOffset: {x:2, y:1}
+},
+"#winTitle":{
+	top: 10,
+	height: Ti.UI.SIZE,
+	width: Ti.UI.SIZE,
+	zIndex: 10
+},
+"#cityName":{
+	top: 60,
+	left: 10,
+	height: Ti.UI.SIZE,
+	color: Alloy.CFG.citySearchColor,
+	right: 10,
+	paddingRight: 40,
+	zIndex: 100,
+	textAlign: 'center',
+	backgroundColour: "transparent",
+	font: {fontFamily: Alloy.CFG.font.ostrichMedium, fontSize: 30}
+},
+"#locationOptions":{
+	top: 110,
+	height: Ti.UI.SIZE,
+	left: 5,
+	right: 5,
+	zIndex: 10
+},
+"#reminderSettings":{
+	top: 180,
+	left: 0,
+	right: 0,
+	height: Ti.UI.SIZE
+},
+"#nextPass":{
+	top: 280,
+	color: "#fff",
+	font: {fontSize: 16, fontFamily: Alloy.CFG.font.ostrichBlack},
+},
+"#loggedInStatus":{
+	backgroundColor: '#fff',
+	opacity: 0.6
+},
+"#loggedLabel":{
+	font: {fontSize: 16, fontFamily: Alloy.CFG.font.ostrichBlack},
+	width: Ti.UI.SIZE,
+	color: "#000"
+}

@@ -1,0 +1,13 @@
+<Alloy>
+	<View id="reminderControls">
+			<View id="reminderSwitchView">
+				<Label class="smallText" id="reminderSwitchLabel" >Reminder</Label>
+				<Switch value="false" id="reminderSwitch" />
+			</View>
+
+			<View id="reminderSettingsView">
+				<Label class="smallText" id="reminderSettingsLabel" >Reminder Settings</Label>
+				<ImageView onClick="openReminderSettings" id="reminderSettingsIcon" />
+			</View>
+		</View>
+</Alloy>

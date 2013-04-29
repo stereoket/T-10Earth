@@ -1,0 +1,26 @@
+<Alloy>
+	<Window id="earth">
+		<Label class="largeText" id="winTitle">We think you are in...</Label>
+		<View>
+			<TextField id="cityName" hintText="Your City"></TextField>
+			<ImageView id="refreshGPS" image="/images/71-compass.png" width="24" height="24" right="15" top="64" />
+		</View>
+
+		<View id="locationOptions">
+			<View left="10" backgroundImage="/images/58-todo.png" width="16" height="13" />
+			<Label left="30" class="smallText">Set as default</Label>
+			<Button  backgroundImage="/images/blueButton.png" class="smallText" width="Ti.UI.SIZE" height="44" right="5" color="#000"> Change Location </Button>
+		</View>
+		<View id="reminderSettings">
+			<Require src="to.t10.reminderSettings" type="widget"  id="reminderWidget" />
+		</View>
+
+		<Button id="nextPass" right="40" width="60" height="60" onClick="checkNextPass"   backgroundImage="/images/blueButton.png" >OK</Button>
+
+		<View id="loggedInStatus" bottom="0" height="33">
+			<Label left="5" height="Ti.UI.FILL" top="0" id="loggedLabel">Logged in as: </Label>
+			<Label left="100" height="Ti.UI.FILL" top="0" id="loggedLabel">Anonymous</Label>
+		</View>
+
+	</Window>
+</Alloy>

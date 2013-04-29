@@ -1,0 +1,7 @@
+<Alloy>
+	<View id="timeContainer">
+		<Label id="day">Thursday</Label>
+		<Label id="time">Time</Label>
+		<ImageView id="icon" />
+	</View>
+</Alloy>

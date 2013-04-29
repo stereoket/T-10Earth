@@ -1,0 +1,21 @@
+<Alloy>
+	<Window id="earth_idle_simple" >
+		<View id="mainGraphic">
+
+		</View>
+
+		<View id="infoPanel">
+			<Label class="idleLabel" id="nextPass">Next Pass</Label>
+			<Label class="idleLabel" id="location">City </Label>
+			<Label class="idleLabel" id="timezone">GMT +1 </Label>
+			<Label class="idleLabel" id="alerts">Alerts Off</Label>
+			<Label class="idleLabel" id=""></Label>
+			<ImageView id="weatherIcon" />
+		</View>
+
+		
+		<View id="idleMode" onClick="seeMore">
+			<Label id="seeMore">Show More</Label>
+		</View>
+	</Window>
+</Alloy>

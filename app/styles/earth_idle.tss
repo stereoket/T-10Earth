@@ -1,0 +1,83 @@
+"Button":{
+font: {
+		fontFamily: Alloy.CFG.font.ostrichMedium}	
+},
+"#earth_idle":{
+	backgroundImage: Alloy.CFG.backgroundImage	
+},
+"#cityName":{
+	top: 10,
+	color: "#fff",
+	font: {
+		fontFamily: Alloy.CFG.font.ostrichMedium,
+	 	fontSize: 22},
+	textAlign: 'center',
+	touchEnabled: false,
+	backgroundColor: 'transparent',
+	height: 24
+},
+"#issListContainer":{
+	top: 44,
+	height: 146,
+	opacity: 0.9
+},
+"#reminderSettings":{
+	top: 206,
+	left: 0,
+	right: 0,
+	height: Ti.UI.SIZE
+},
+"#buttonLayer": {
+	top: 310,
+	height: 60
+},
+"#settingsButton": {
+	top: 0,
+	height: 60,
+	width: 60,
+	left: 40,
+	backgroundImage: "/images/blueButton.png"
+},
+"#helpButton": {
+	top: 0,
+	height: 60,
+	width: 60,
+	right: 40,
+	backgroundImage: "/images/blueButton.png"
+},
+"#loggedStatus":{
+	bottom: 50,
+	height: 28,
+	color: "#fff",
+	font: {
+		fontFamily: Alloy.CFG.font.ostrichMedium,
+	 	fontSize: 18},
+	textAlign: 'center',
+},
+"#idleMode":{
+	bottom: 0,
+	height: 50,
+	left: 0,
+	right: 0,
+	backgroundColor: "#fff",
+	opacity: 0.6
+},
+"#seeLess":{
+	color: "#000",
+	font: {
+		fontFamily: Alloy.CFG.font.ostrichMedium,
+	 	fontSize: 36},
+	textAlign: 'center',
+},
+"#label1":{
+	top: 0,
+	color: "#000",
+},
+"#item2":{
+	top: 190,
+	left: 10,
+	height: Ti.UI.SIZE
+},
+"#item3":{
+	top: 170	
+}

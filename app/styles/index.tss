@@ -1,0 +1,22 @@
+".container": {
+	backgroundImage: Alloy.CFG.splashBackground
+},
+"#bb_containerBackground": {
+	width: "100%",
+	height: "100%",
+	image: Alloy.CFG.splashBackground
+},
+".indexButtons" : {
+	height: "28%",
+	width: "80%",
+	//opacity: 0.3
+	background: "blue",
+	zIndex: 10
+},
+"#space": {
+	top: '10%'
+},
+
+"#earth": {
+	bottom: '10%'		
+}

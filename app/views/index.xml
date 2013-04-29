@@ -1,0 +1,7 @@
+<Alloy>
+	<Window  class="container">
+		<View id="space" onClick="launchSpaceApp" class="indexButtons"/>
+		<View id="earth" onClick="launchEarthApp" class="indexButtons"/>
+	</Window>
+
+</Alloy>

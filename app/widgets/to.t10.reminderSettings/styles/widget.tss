@@ -1,0 +1,37 @@
+"#reminderControls":{
+	
+},
+"#reminderSwitchView":{
+	top: 0,
+	left: 20,
+	right: 20,
+	height: 40
+},
+"#reminderSwitch":{
+	right: 10
+},
+"#reminderSwitchLabel":{
+	left: 10	
+},
+"#reminderSettingsView":{
+	top:50,
+	left: 20,
+	right: 20,
+	height: 40
+},
+"#reminderSettingsLabel":{
+	left: 10
+},
+"#reminderSettingsIcon":{
+	right: 36,
+	width : 30,
+	height: 30,
+	image: "/images/19-gear.png"
+},
+".smallText": {
+	font: {fontSize: 16, fontFamily: Alloy.CFG.font.ostrichBlack},
+	width: Ti.UI.SIZE,
+	color: "#fff",
+	shadowColor: '#000',
+  	shadowOffset: {x:2, y:1}
+}
