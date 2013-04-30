@@ -1,9 +1,9 @@
-# T-10 Earth Companion App
+# T-10 Space App
 
 This app allows the astronauts to schedule an alert for ISS orbit over a psecific city and checks for weather conditions. It has push notification functionality and the ability to broadcast to the companion earth app:
 
-- T-10 Mobile App (Earth Version):
- - https://github.com/stereoket/T-10Earth
+- T-10 Space App (Astronaut Space Version):
+ - https://github.com/stereoket/T-10
 
 - T-10 Server Code (To handle weather/ISS location and other communication)
  - https://github.com/jpgneves/t-10_server
